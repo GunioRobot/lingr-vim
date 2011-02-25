@@ -166,7 +166,7 @@ class LingrVim(object):
             self.state = LingrVim.CONNECTED
             self.push_operation(RenderOperation(RenderOperation.CONNECTED))
 
-            current_bufnr = int(vim.eval("bufnr('')"))
+            current_bufnr = vim.current.buffer.number
             if current_bufnr in [
                 self.messages_buffer.number,
                 self.members_buffer.number,
