@@ -38,7 +38,7 @@ Changelog		|lingr-changelog|
 ==============================================================================
 INTRODUCTION					*lingr-introduction*
 This plugin enables to show lingr on Vim
-Please use this plugin with your own lisk, because this plugin is little 
+Please use this plugin with your own lisk, because this plugin is little
 unstable in this time
 Note: Don't use this plugin in X11 environment, since Vim crashes.
 
